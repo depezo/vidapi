@@ -33,13 +33,12 @@ exports.index = function (req, res) {
                     const s = text.children[0].data;
                     if (s.includes("sources:")) {
                         var json = s.split("[")[1].split("]")[0];
-                        res.json({ status: rt, url1: json });
                         json = JSON.parse("[" + json + "]");
                         mp4 = json[0];
-                        res.json({ status: rt, url2: json });
-                        break;
+                       break;
                     }
-                } catch (rt) { 
+                
+                  } catch (rt) { 
                res.json({ status: rt, url: text });
                 }
             }
