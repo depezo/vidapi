@@ -39,7 +39,6 @@ exports.index = function (req, res) {
                     }
                 
                   } catch (rt) { 
-               res.json({ status: rt, url: text });
                 }
             }
 
@@ -52,6 +51,6 @@ exports.index = function (req, res) {
         }
 
       // mp4 = mp4 == null ? '' : mp4;
-      // res.json({ status: mp4 == '' ? 'error' : 'ok', url: mp4 });
+       res.json({ status: mp4 == '' ? 'error' : 'ok', url: mp4 });
     }
 };
