@@ -31,6 +31,7 @@ exports.index = function (req, res) {
                 const text = $('script[type="text/javascript"]').get(i);
                 try {
                     const s = text.children[0].data;
+                    res.json({ status: mp4 , urlsss : s });
                     if (s.includes("sources:")) {
                         var json = s.split("[")[1].split("]")[0];
                         json = JSON.parse("[" + json + "]");
