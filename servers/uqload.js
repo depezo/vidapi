@@ -1,5 +1,5 @@
 /* uqload resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

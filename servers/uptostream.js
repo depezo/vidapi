@@ -1,5 +1,5 @@
 /* uptostream resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

@@ -1,5 +1,5 @@
 /* powvideo resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

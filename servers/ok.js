@@ -1,5 +1,5 @@
 /* ok.ru resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

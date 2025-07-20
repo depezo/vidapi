@@ -1,5 +1,5 @@
 /* gamovideo resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

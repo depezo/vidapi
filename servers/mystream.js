@@ -1,5 +1,5 @@
 /* mystream resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

@@ -1,5 +1,5 @@
 /* cloudvideo resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 const json5 = require('json5');

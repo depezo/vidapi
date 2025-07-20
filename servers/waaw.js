@@ -1,5 +1,5 @@
 /* waaw.tv resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

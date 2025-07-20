@@ -1,5 +1,5 @@
 /* vidfast resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

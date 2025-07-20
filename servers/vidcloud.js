@@ -1,5 +1,5 @@
 /* vidcloud resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

@@ -1,5 +1,5 @@
 /* mixdrop resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

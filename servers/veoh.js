@@ -1,5 +1,5 @@
 /* veoh resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

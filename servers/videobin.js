@@ -1,5 +1,5 @@
 /* videobin resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 const cheerio = require('cheerio');

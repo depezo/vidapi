@@ -1,5 +1,5 @@
 /* streamtape resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

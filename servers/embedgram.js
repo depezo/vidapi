@@ -1,5 +1,5 @@
 /* embedgram resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 const skkchecker = require('../lib/skkchecker');

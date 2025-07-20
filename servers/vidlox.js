@@ -1,5 +1,5 @@
 /* vidlox resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

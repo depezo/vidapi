@@ -1,5 +1,5 @@
 /* doodstream resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

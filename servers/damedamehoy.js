@@ -1,5 +1,5 @@
 /* damedamehoy resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 const fetch = require('node-fetch');

@@ -1,5 +1,5 @@
 /* jawcloud resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

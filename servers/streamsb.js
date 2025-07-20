@@ -1,5 +1,5 @@
 /* streamsb resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 const PythonShell = require('python-shell').PythonShell
@@ -28,7 +28,7 @@ exports.index = function (req, res) {
 
         try {
             var options = {
-                scriptPath: '/var/var/html/node-urlresolver-api/lib',
+                scriptPath: '/var/var/html/vidapi/lib',
                 args: [video, userAgent, source]
             }
 

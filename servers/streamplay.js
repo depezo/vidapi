@@ -1,5 +1,5 @@
 /* streamplay resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

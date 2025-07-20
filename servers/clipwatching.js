@@ -1,5 +1,5 @@
 /* clipwatching resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

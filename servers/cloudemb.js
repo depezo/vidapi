@@ -1,5 +1,5 @@
 /* cloudemb (streamsb) resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

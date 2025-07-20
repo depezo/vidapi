@@ -1,5 +1,5 @@
 /* prostream resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

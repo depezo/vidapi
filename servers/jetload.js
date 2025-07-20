@@ -1,5 +1,5 @@
 /* jetload resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

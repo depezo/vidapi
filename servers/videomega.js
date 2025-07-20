@@ -1,5 +1,5 @@
 /* videomega resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

@@ -1,5 +1,5 @@
 /* vidtodo resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 // Pendiente de probar

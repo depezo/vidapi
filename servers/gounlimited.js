@@ -1,5 +1,5 @@
 /* gounlimited resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

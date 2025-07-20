@@ -1,5 +1,5 @@
 /* openplay resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

@@ -1,5 +1,5 @@
 /* mp4upload resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

@@ -1,5 +1,5 @@
 /* vidoza resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

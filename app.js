@@ -1,5 +1,5 @@
 /* Express App for resolving stream vdeos by API
- * @lscofield
+ * @depezo
  * GNU
  */
 

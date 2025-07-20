@@ -1,5 +1,5 @@
 /* vup.to resolver
- * @lscofield
+ * @depezo
  * GNU
  */
 

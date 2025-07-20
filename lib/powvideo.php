@@ -1,6 +1,6 @@
 <?php
 /* JavaScript PHP UnPacker 
- * @lscofield
+ * @depezo
  * GNU
  */
 
