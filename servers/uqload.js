@@ -12,8 +12,7 @@ exports.index = function (req, res) {
     // unautorized signal
     // see the config file to more info
     const auth = 'auth' in req.body ? req.body.auth : req.query.auth;
-    const authJSON = Buffer.from(auth, 'base64').toString('utf8');
-    const granted = skkchecker.check(authJSON);
+    const granted = skkchecker.check(auth);
     if (granted != '') {
         // no autorized app block
         // return a random troll video
@@ -22,7 +21,7 @@ exports.index = function (req, res) {
     } else {
         // autorized app block
         const source = 'source' in req.body ? req.body.source : req.query.source;
-        const html = Buffer.from(source, 'base64').toString('utf8');
+        const html = source;
         var mp4 = null;
 
         const $ = cheerio.load(html);
