@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # vidapi
+=======
+# Vidapi
+>>>>>>> f6e79b7d2b865a7527f6f176b4813f5fa75c6976
 > A complete nodejs API to extract streaming sites video direct URLs:
 > For the supported servers go to /servers.
 
