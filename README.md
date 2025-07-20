@@ -1,4 +1,4 @@
-# node-urlresolver-api
+# Vidapi
 > A complete nodejs API to extract streaming sites video direct URLs:
 > For the supported servers go to /servers.
 
