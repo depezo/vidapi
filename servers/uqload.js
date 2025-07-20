@@ -1,5 +1,5 @@
 /* uqload resolver
- * @depezo
+ * @lscofield
  * GNU
  */
 
@@ -11,10 +11,10 @@ exports.index = function (req, res) {
     // to unautorized apps, skk is signature and auth is 
     // unautorized signal
     // see the config file to more info
-    //const auth = 'auth' in req.body ? req.body.auth : req.query.auth;
-    //const authJSON = Buffer.from(auth, 'base64').toString('utf8');
-    const granted = "papa";
-    if (granted == '') {
+    const auth = 'auth' in req.body ? req.body.auth : req.query.auth;
+    const authJSON = Buffer.from(auth, 'base64').toString('utf8');
+    const granted = skkchecker.check(authJSON);
+    if (granted != '') {
         // no autorized app block
         // return a random troll video
         // if the app is unautorized

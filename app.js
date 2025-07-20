@@ -12,8 +12,8 @@ let app = express();
 // Import routes
 // Important incrase this limit
 app.use(bodyParser.urlencoded(
-  { limit: '5mb', extended: true }));
-app.use(bodyParser.json({ limit: '5mb' }));
+  { limit: '128mb', extended: true }));
+app.use(bodyParser.json({ limit: '128mb' }));
 
 let routes = require("./routes");
 // Setup server port
