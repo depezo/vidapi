@@ -1,5 +1,5 @@
 {
-  "name": "node-urlresolver-api",
+  "name": "vidapi",
   "version": "1.0.0",
   "description": "A nodejs API to resolve streaming sites urls",
   "main": "app.js",
@@ -8,23 +8,23 @@
   },
   "keywords": [
     "nodejs",
-    "urlresolver",
+    "vidapi",
     "scraper",
-    "resolverurl",
-    "kodi"
+    "videpiByDepezo",
+    "Android"
   ],
   "homepage": "https://github.com/depezo/vidapi",
   "author": "depezo",
   "license": "GNU",
   "dependencies": {
     "atob": "^2.1.2",
-    "axios": "^0.21.1",
-    "body-parser": "^1.19.0",
+    "axios": "^1.10.0",
+    "body-parser": "^2.2.0",
     "cheerio": "^1.1.0",
-    "exec-php": "0.0.5",
+    "exec-php": "0.0.6",
     "express": "^5.1.0",
-    "got": "^9.6.0",
-    "json5": "^2.1.1",
-    "node-fetch": "^2.6.0"
+    "got": "^14.4.7",
+    "json5": "^2.2.3",
+    "node-fetch": "^3.3.2"
   }
 }
