@@ -47,9 +47,7 @@ exports.index = function (req, res) {
             mp4 = mp4 == null ? '' : mp4;
         }
 
-       // mp4 = mp4 == null ? '' : mp4;
-
-       // res.json({ status: mp4 == '' ? 'error' : 'ok', url: mp4 });
-        res.json({ status: 'dep', html: html, msg : $});
+      mp4 = mp4 == null ? '' : mp4;
+      res.json({ status: mp4 == '' ? 'error' : 'ok', url: mp4 });
     }
 };
