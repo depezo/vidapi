@@ -27,7 +27,7 @@ app.use(function (req, res, next) {
   res.set({ 'content-type': 'application/json; charset=utf-8' });
   next();
 });
-app.use('/api/v1', routes);
+app.use('/v1', routes);
 // Launch app to listen to specified port
 app.listen(port, function () {
   console.log("Running on port " + port);
