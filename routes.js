@@ -1,40 +1,39 @@
-// routes.js
-// Initialize express router
-
-let router = require('express').Router();
-// require config file
-const config = require('./config/conf');
-// config file
-global.config = config;
+const router = require('express').Router();
 const _servers_ = './servers/';
-// Set default API response
-router.get('/', function (req, res) {
-    res.set({ 'content-type': 'application/json; charset=utf-8' });
-    res.json({
-        status: 'online'.req.body.url,
-        message: 'API online',
-    });
+const serverHandlers = {
+    uqload: require(`${_servers_}uqload`)
+};
+
+router.post('/', (req, res) => {
+
+    const serr = req.body.source || req.query.source; // Par défaut uqload
+
+    res.json({status1: 'ok', url: rerr});    
+
+    const { server } = req.body; // ou req.query.server si tu envoies par URL
+
+    if (!server || !serverHandlers[server]) {
+        return res.status(400).json({
+            status: 'error',
+            message: 'Serveur invalide ou non fourni. Ex: serva, servb, servc, servd'
+        });
+    }
+
+    // Appelle dynamiquement le bon contrôleur
+    try {
+        return serverHandlers[server].index(req, res);
+    } catch (err) {
+        console.error(`Erreur serveur ${server}`, err);
+        return res.status(500).json({
+            status: 'error',
+            message: `Erreur interne lors de l’appel du serveur ${server}`
+        });
+    }
 });
 
-//  routes
-config.servers.forEach(server => {
-
-
-
-    // Import server file
-    if (!server || !server.length) {
-        console.error('Server name is empty or undefined');
-        return;
-    }
-    if (!require(`${_servers_}${server}`)) {
-        console.error(`Server file for ${server} not found`);
-        return;
-    }
-    if (typeof require(`${_servers_}${server}`).index !== 'function') {                 
-
-
-
-    router.route(`/${server}`).post(require(`${_servers_}${server}`).index);
+// Pour test rapide de l'API
+router.get('/', (req, res) => {
+    res.json({ status: 'online', message: 'API OK via /v1' });
 });
-// Export API routes
+
 module.exports = router;
